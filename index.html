@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Course Introduction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>WebDev Academy</h1>
+            <nav>
+                <ul>
+                    <li><a href="#overview" onclick="showSection('overview')">Overview</a></li>
+                    <li><a href="#instructors" onclick="showSection('instructors')">Instructors</a></li>
+                    <li><a href="#testimonials" onclick="showSection('testimonials')">Testimonials</a></li>
+                    <li><a href="#syllabus" onclick="showSection('syllabus')">Syllabus</a></li>
+                    <li><a href="#faq" onclick="showSection('faq')">FAQ</a></li>
+                    <li><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+                    <li><a href="#enrollment" onclick="showSection('enrollment')">Enroll</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Become a Web Developer: Join Our Comprehensive Web Development Course!</h2>
+            <p>Master HTML, CSS, JavaScript, and modern frameworks in just 12 weeks with hands-on projects and expert guidance.</p>
+            <a href="#enrollment" class="cta-button" onclick="showSection('enrollment')">Enroll Now</a>
+        </div>
+    </section>
+
+    <section id="overview">
+        <div class="container">
+            <h2>Course Overview</h2>
+            <p>Our course covers front-end and back-end development, responsive design, and best practices in web development. Learn at your own pace with lifetime access to materials.</p>
+        </div>
+    </section>
+
+    <section id="instructors">
+        <div class="container">
+            <h2>Meet Your Instructors</h2>
+            <div class="instructor-profile">
+                <img src="image/icon-5404125_1280.png" alt="Instructor 1">
+                <h3>John Doe</h3>
+                <p>Senior Web Developer with over 10 years of experience.</p>
+            </div>
+            <div class="instructor-profile">
+                <img src="image/icon-5404125_1280.png" alt="Instructor 2">
+                <h3>Jane Smith</h3>
+                <p>Front-end Developer and UX Designer.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>What Our Students Say</h2>
+            <blockquote>
+                <p>This course was a game-changer for my career. The projects were challenging but incredibly rewarding.</p>
+                <footer>- Jane Smith, Junior Web Developer</footer>
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="syllabus">
+        <div class="container">
+            <h2>Course Syllabus</h2>
+            <p>Download the syllabus to see the full course outline and weekly topics.</p>
+            <a href="syllabus.pdf" class="cta-button">Download Syllabus</a>
+        </div>
+    </section>
+
+    <section id="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <details>
+                <summary>How long is the course?</summary>
+                <p>The course lasts for 12 weeks.</p>
+            </details>
+            <details>
+                <summary>What prior knowledge do I need?</summary>
+                <p>No prior knowledge is required; we start from the basics.</p>
+            </details>
+        </div>
+    </section>
+
+    <section id="enrollment">
+        <div class="container">
+            <h2>Enroll Now</h2>
+            <p>To enroll in our course, please fill out the form below:</p>
+            <form id="enrollment-form" action="enroll.php" method="post">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <input type="submit" value="Submit">
+            </form>
+            <div id="thank-you" style="display:none;">
+                <h3>Thank you for enrolling!</h3>
+                <p>We have received your enrollment details.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <p>Contact us at <a href="mailto:support@webdevcourse.com">support@webdevcourse.com</a></p>
+            <p>Follow us on 
+                <a href="#">Facebook</a>, 
+                <a href="#">Twitter</a>, 
+                <a href="#">LinkedIn</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
